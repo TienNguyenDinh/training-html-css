@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chapter 7 - Form</title>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+
+    <body>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" required><br>
+
+                <label for="email">Last name:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="bio">Bio:</label><br>
+                <textarea id="bio" name="bio"></textarea><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br>
+
+                <label for="fruits">Choose at least 1 favourite fruit:</label><br>
+                <select id="fruits" name="fruits">
+                <option value="volvo">Apple</option>
+                <option value="saab">Banana</option>
+                <option value="opel">Kiwi</option>
+                </select>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
