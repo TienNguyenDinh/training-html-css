@@ -36,9 +36,11 @@ form {
 .inputs {
     width: fit-content;
 }
+
 .inputs>div:nth-child(n) {
     margin-bottom: .5rem;
 }
+
 .inputs>div:nth-child(2) {
     width: fit-content;
     margin-left: auto;
