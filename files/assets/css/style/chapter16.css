@@ -7,6 +7,7 @@ img {
 figure {
     display: inline-block;
 }
+
 .div-img {
     background-color: blanchedalmond;
     width: 200px;
@@ -14,12 +15,15 @@ figure {
     background-image: url("../../images/image-2.jfif");
     background-size: contain;
 }
+
 .div-img--no-repeat {
     background-repeat: no-repeat;
 }
+
 .div-img--bottom {
     background-position: bottom;
 }
+
 .div-img--cover {
     background-size: cover;
 }
