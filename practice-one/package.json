@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "* This document provides requirements, technical stack, and estimation for HTML CSS Practice. * Design: [figma](https://www.figma.com/file/EKwr6Bv1LsXdmDeo4FJMjo/Ride-sharing-web-ui---bootstrap-guide-lines-(Community)?type=design&node-id=36%3A54643&mode=design&t=pexqcgU7063mTSxG-1)",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.3"
+  }
 }

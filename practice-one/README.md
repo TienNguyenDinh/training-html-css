@@ -25,3 +25,43 @@
 # TASK MANAGEMENT
 
 * [Trello](https://trello.com/b/u86xROVi/tiennguyen-internship-html-css)
+
+# REQUIREMENTS
+
+* Use the right HTML5 tags
+* Apply CSS guideline
+* Apply Flexbox
+* Cross-browser testing (Chrome, Firefox, and Safari latest version)
+* Validate HTML tags usage at W3C
+
+# GETTING STARTED
+
+* Clone the repository
+
+```bash
+git clone https://github.com/TienNguyenDinh/training-html-css.git
+```
+
+* Move to folder `practice-one`
+
+```bash
+cd training-html-css/practice-one
+```
+
+* Checkout to branch `practice-one`
+
+```bash
+git checkout practice-one
+```
+
+* Install packages
+
+```bash
+npm install
+```
+
+* Run the server
+
+```bash
+npm start
+```
