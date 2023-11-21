@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 5rem;
+
+  & .logo-container .header-logo {
+    width: 180px;
+    height: 52px;
+  }
+
+  & .navbar {
+    display: flex;
+    align-items: center;
+
+    & .navbar-list {
+      display: flex;
+      list-style-type: none;
+    }
+
+    & .navbar-item {
+      margin-right: 3rem;
+
+      & .navbar-link {
+        color: var(--black)
+      }
+
+    }
+
+    & .help-center {
+      border-radius: 6px;
+      padding: 1rem 3rem;
+      background-color: var(--iguana-green);
+      color: var(--white);
+    }
+  }
+}
