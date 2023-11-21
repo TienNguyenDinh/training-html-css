@@ -1,0 +1,6 @@
+.container {
+  width: 80%; /* Adjust this to control the width of your content */
+  max-width: 1200px; /* This prevents the content from becoming too wide on large screens */
+  margin: 0 auto; /* This centers the content horizontally */
+  padding: 0 1rem; /* This adds some horizontal padding */
+}
