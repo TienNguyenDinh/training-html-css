@@ -1,11 +1,13 @@
 .main-header {
   display: flex;
   justify-content: space-between;
-  margin: 80px 80px;
+  padding: 80px 80px;
 
-  & .logo-container .header-logo {
+  & .header-logo {
     width: 180px;
     height: 52px;
+
+    & a { display: block; }
   }
 
   & .navbar {
@@ -30,6 +32,7 @@
       border-radius: 6px;
       padding: 16px 48px;
       background-color: var(--background-color-primary);
+      color: var(--color-text-link-special);
     }
   }
 }
