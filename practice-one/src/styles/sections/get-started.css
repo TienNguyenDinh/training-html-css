@@ -1,0 +1,41 @@
+.section-get-started {
+  display: flex;
+  margin-bottom: 5.3rem;
+}
+
+.download {
+  align-self: flex-end;
+  width: 600px;
+  margin-left: 5rem;
+}
+
+.download-heading {
+  margin-bottom: 1.6rem;
+}
+
+.download-content { 
+  margin-bottom: 3.8rem;
+  font-size: 1.5rem;
+}
+
+.download-links {
+  display: flex;
+  gap: 0 1.9rem;
+}
+
+.download-link {
+  display: inline-flex;
+  align-items: center;
+  padding: .9rem 2rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--black);
+}
+
+.link-icon { margin-right: .8rem; }
+
+.download-background-container {
+  margin-left: auto;
+  margin-right: 9rem;
+}
