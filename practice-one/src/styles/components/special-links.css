@@ -1,5 +1,5 @@
 .special-link {
   border-radius: 6px;
   padding: 16px 48px;
-  color: var(--white);
+  color: var(--color-text-link-special);
 }

@@ -1,6 +1,7 @@
 :root {
-  --black: #000;
-  --manatee: #9E9DA2;
-  --white: #FFF;
-  --iguana-green: #75BF7A;
+  --color-text-link-normal: #000;
+  --color-text-link-special: #fff;
+  --color-text-primary: #9e9da2;
+  --color-text-secondary: #fff;
+  --background-color-primary: #75bf7a;
 }

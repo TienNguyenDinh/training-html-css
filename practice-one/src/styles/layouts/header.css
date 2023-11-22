@@ -21,7 +21,7 @@
       margin-right: 48px;
 
       & .navbar-link {
-        color: var(--black)
+        color: var(--color-text-link-normal)
       }
 
     }
@@ -29,8 +29,7 @@
     & .help-center {
       border-radius: 6px;
       padding: 16px 48px;
-      background-color: var(--iguana-green);
-      color: var(--white);
+      background-color: var(--background-color-primary);
     }
   }
 }
