@@ -1,11 +1,4 @@
 .container {
   margin: 0 auto;
   width: 1280px;
-  height: 100%;
-}
-
-.container-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }

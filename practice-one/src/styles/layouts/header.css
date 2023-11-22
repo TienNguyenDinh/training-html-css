@@ -1,12 +1,15 @@
-.main-header {
-  height: 174px;
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 61px 0;
 }
 
 .header-logo {
   width: 180px;
   height: 52px;
 
-  & a { display: block; }
+  & .logo-link { display: block; }
 }
 
 .navbar {
