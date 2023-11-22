@@ -30,7 +30,7 @@
   color: var(--color-text-link-normal);
 }
 
-.help-center {
+.btn-help-center {
   border-radius: 6px;
   font-size: 22px;
   font-weight: 600;
