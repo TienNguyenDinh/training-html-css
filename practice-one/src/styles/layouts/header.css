@@ -1,0 +1,38 @@
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 61px;
+  padding-bottom: 61px;
+}
+
+.header-logo {
+  width: 180px;
+  height: 52px;
+
+  & .logo-link { display: block; }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 48px;
+}
+
+.navbar-link {
+  color: var(--color-text-link-normal);
+}
+
+.btn-help-center {
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: var(--background-color-primary);
+}
