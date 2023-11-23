@@ -23,3 +23,7 @@ h4 {
 .content {
   color: var(--color-text-primary);
 }
+
+input[type="text"] {
+  outline: none;
+}

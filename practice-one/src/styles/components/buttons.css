@@ -1,8 +1,15 @@
 .btn {
+  border: none;
   border-radius: 6px;
   padding: 14px 30px;
+  outline: none;
 }
 
 .btn-link {
   color: var(--color-text-link-special);
+}
+
+.btn-form {
+  color: var(--color-text-secondary);
+  background-color: var(--background-color-tertiary);
 }
