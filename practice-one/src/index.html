@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+  <object data="./assets/images/download-logos.svg" type="image/svg+xml"></object>
   <!-- START HEADER -->
   <header class="main-header">
     <div class="container container-header">
@@ -47,9 +47,7 @@
       <section class="section-get-started">
         <section class="download">
           <h1 class="download-heading">
-            Download app,
-            save money, make
-            friends!
+            Download app, save money, make friends!
           </h1>
           <p class="content download-content">
             Its simple and its free. Play your part in reducing Carbon Footprint and help
@@ -59,11 +57,15 @@
 
           <div class="download-links">
             <a href="#" class="btn btn-link btn-download">
-              <img src="./assets/images/download-icon-store.svg" alt="download-icon-store">
+              <svg class="download-logo" width="45" height="40">
+                <use xlink:href="./assets/images/download-logos.svg#logo-play-store"></use>
+              </svg>
               Download
             </a>
             <a href="#" class="btn btn-link btn-download">
-              <img src="./assets/images/download-icon-figma.svg" alt="download-icon-figma">
+              <svg class="download-logo" width="41" height="41">
+                <use xlink:href="./assets/images/download-logos.svg#logo-apple-store"></use>
+              </svg>
               Download
             </a>
           </div>
