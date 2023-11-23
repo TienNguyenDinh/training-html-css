@@ -5,6 +5,7 @@
 .section-get-started {
   display: flex;
   gap: 0 100px;
+  padding-top: 55px;
   padding-bottom: 86px;
 }
 
