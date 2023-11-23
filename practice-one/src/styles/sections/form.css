@@ -1,0 +1,43 @@
+.section-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 28px 36px;
+  background-color: var(--background-color-primary);
+}
+
+.form-content {
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.form {
+  display: flex;
+  gap: 0 11px;
+}
+
+.form-input {
+  border-radius: 4px;
+  width: 436px;
+  padding: 16px 32px;
+  font-size: 21px;
+  outline: none;
+
+  &::placeholder {
+      font-size: 20px;
+      opacity: 0.5;
+  }
+}
+
+.btn-form {
+  border-radius: 4px;
+  padding: 18px 29px;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  background-color: var(--background-color-tertiary);
+}
