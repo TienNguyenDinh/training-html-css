@@ -6,8 +6,3 @@
 .btn-link {
   color: var(--color-text-link-special);
 }
-
-.btn-form {
-  color: var(--color-text-secondary);
-  background-color: var(--background-color-tertiary);
-}

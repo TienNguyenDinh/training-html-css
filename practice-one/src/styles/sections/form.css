@@ -8,6 +8,7 @@
 }
 
 .form-content {
+  width: 246px;
   font-size: var(--font-size-large);
   line-height: 28px;
   font-weight: var(--font-weight-semi-bold);
@@ -24,17 +25,14 @@
   width: 436px;
   padding: 16px 32px;
   font-size: var(--font-size-small);
-  outline: none;
 
   &::placeholder {
-      font-size: var(--font-size-small);
-      opacity: 0.5;
+    font-size: var(--font-size-small);
+    opacity: 0.5;
   }
 }
 
 .btn-form {
-  border-radius: 4px;
-  padding: 18px 29px;
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
