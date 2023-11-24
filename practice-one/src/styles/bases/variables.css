@@ -11,10 +11,10 @@
   --font-size-small: 20px;
   --font-size-medium: 22px;
   --font-size-large: 24px;
-  --font-size-xlarge: 34px;
-  --font-size-xlarge2: 46px;
-  --font-size-huge: 60px;
-  --font-size-giant: 65px;
+  --font-size-xl: 34px;
+  --font-size-2xl: 46px;
+  --font-size-3xl: 60px;
+  --font-size-4xl: 65px;
 
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;

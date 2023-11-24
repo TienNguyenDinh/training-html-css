@@ -19,7 +19,7 @@
 
 .download-heading {
   margin-bottom: 27px;
-  font-size: 61px;
+  font-size: var(--font-size-3xl);
   line-height: 66px;
 }
 
@@ -41,4 +41,9 @@
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
   background-color: var(--background-color-tertiary);
+}
+
+.download-img {
+  width: 553px;
+  height: 587px;
 }
