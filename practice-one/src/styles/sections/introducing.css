@@ -15,8 +15,6 @@
   margin-bottom: 24px;
   font-size: 46px;
   line-height: 50px;
-
-  & .tere { color: var(--color-text-tertiary) }
 }
 
 .summary-content {

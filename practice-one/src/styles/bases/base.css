@@ -2,7 +2,7 @@ html {
   font-size: 16px;
 }
 
-body {
+* {
   box-sizing: border-box;
   font-family: 'gilroy', 'san-serif';
 }
@@ -27,3 +27,5 @@ h4 {
 input[type="text"] {
   outline: none;
 }
+
+.tere { color: var(--color-text-tertiary) }
