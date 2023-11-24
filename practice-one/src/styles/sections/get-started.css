@@ -1,0 +1,49 @@
+.main-content {
+  background-color: var(--background-color-secondary);
+}
+
+.section-get-started {
+  display: flex;
+  gap: 0 100px;
+  padding-top: 55px;
+  padding-bottom: 86px;
+}
+
+.download {
+  align-self: flex-end;
+}
+
+.download-info {
+  margin-bottom: 62px;
+}
+
+.download-heading {
+  margin-bottom: 27px;
+  font-size: var(--font-size-3xl);
+  line-height: 66px;
+}
+
+.download-content { 
+  font-size: var(--font-size-large);
+  line-height: 28px;
+}
+
+.download-links {
+  display: flex;
+  gap: 0 30px;
+}
+
+.btn-download {
+  display: inline-flex;
+  gap: 0 10px;
+  align-items: center;
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  background-color: var(--background-color-tertiary);
+}
+
+.download-img {
+  width: 553px;
+  height: 587px;
+}
