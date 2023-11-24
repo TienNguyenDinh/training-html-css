@@ -33,6 +33,6 @@
 .btn-help-center {
   border-radius: 6px;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   background-color: var(--background-color-primary);
 }
