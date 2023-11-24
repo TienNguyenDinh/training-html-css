@@ -8,6 +8,6 @@ body {
 }
 
 a {
-  font-weight: var(--font-weight-primary);
+  font-weight: var(--font-weight-medium);
   text-decoration: none;
 }
