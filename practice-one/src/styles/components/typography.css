@@ -6,3 +6,7 @@
 .content {
   color: var(--color-text-primary);
 }
+
+.contrast-heading {
+  color: var(--color-text-tertiary)
+}

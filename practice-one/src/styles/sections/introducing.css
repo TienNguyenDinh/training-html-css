@@ -15,20 +15,12 @@
   margin-bottom: 24px;
   font-size: var(--font-size-2xl);
   line-height: 50px;
-
-  & .tere { color: var(--color-text-tertiary) }
 }
 
 .summary-content {
   font-size: var(--font-size-medium);
   line-height: 26px;
 }
-
-/* .features {
-  display: flex;
-  gap: 0 105px;
-  padding-bottom: 118px;
-} */
 
 .feature {
   display: flex;
@@ -40,6 +32,7 @@
   position: relative;
   width: 63px;
   height: 63px;
+  background-image: url("../../assets/images/order-icon.png");
 
   & .order-number {
     font-size: var(--font-size-xl);
@@ -66,17 +59,17 @@
   transform: translate(-50%, -50%);
 }
 
-.feature-one, .feature-three {
+.feature-request, .feature-notification {
   align-items: flex-end;
   text-align: right;
 }
 
-.feature-two, .feature-four {
+.feature-post, .feature-payment {
   align-items: flex-start;
   text-align: left;
 }
 
-.features-one-three, .features-two-four {
+.features-request-notification, .features-post-payment {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -84,18 +77,15 @@
   margin-bottom: 36px;
 }
 
-.carousel {
+.features {
   position: relative;
 }
 
 .carousel-indicators {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
   display: flex;
   justify-content: center;
   gap: 0 5px;
-  transform: translateX(-50%);
+  padding-top: 60px;
 }
 
 .indicator {
@@ -114,10 +104,8 @@
 }
 
 .carousel-item {
-  display: none;
+  display: flex;
   gap: 0 105px;
-
-  &.active { display: flex; }
 }
 
 .carousel-img {
