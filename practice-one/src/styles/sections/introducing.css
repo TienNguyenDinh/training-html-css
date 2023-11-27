@@ -24,12 +24,6 @@
   line-height: 26px;
 }
 
-/* .features {
-  display: flex;
-  gap: 0 105px;
-  padding-bottom: 118px;
-} */
-
 .feature {
   display: flex;
   flex-direction: column;
