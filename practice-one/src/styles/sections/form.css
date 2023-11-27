@@ -8,13 +8,14 @@
 }
 
 .form-content {
-  font-size: 25px;
+  width: 246px;
+  font-size: var(--font-size-large);
   line-height: 28px;
-  font-weight: 600;
+  font-weight: var(--font-weight-semi-bold);
   color: var(--color-text-secondary);
 }
 
-.form {
+.form-apply {
   display: flex;
   gap: 0 11px;
 }
@@ -23,21 +24,10 @@
   border-radius: 4px;
   width: 436px;
   padding: 16px 32px;
-  font-size: 21px;
-  outline: none;
+  font-size: var(--font-size-small);
 
   &::placeholder {
-      font-size: 20px;
-      opacity: 0.5;
+    font-size: var(--font-size-small);
+    opacity: 0.5;
   }
-}
-
-.btn-form {
-  border-radius: 4px;
-  padding: 18px 29px;
-  font-size: 22px;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: var(--color-text-secondary);
-  background-color: var(--background-color-tertiary);
 }
