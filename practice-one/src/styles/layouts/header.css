@@ -32,8 +32,6 @@
 }
 
 .btn-help-center {
-  border-radius: 6px;
-  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-semi-bold);
   background-color: var(--background-color-primary);
 }

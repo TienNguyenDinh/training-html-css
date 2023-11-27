@@ -15,7 +15,7 @@
   color: var(--color-text-secondary);
 }
 
-.form {
+.form-apply {
   display: flex;
   gap: 0 11px;
 }
@@ -30,12 +30,4 @@
     font-size: var(--font-size-small);
     opacity: 0.5;
   }
-}
-
-.btn-form {
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-bold);
-  text-transform: uppercase;
-  color: var(--color-text-secondary);
-  background-color: var(--background-color-tertiary);
 }

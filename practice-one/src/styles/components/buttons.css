@@ -1,8 +1,12 @@
 .btn {
   border-radius: 6px;
   padding: 14px 30px;
+  font-size: var(--font-size-medium);
+  color: var(--color-text-link-special);
 }
 
-.btn-link {
-  color: var(--color-text-link-special);
+.btn-action {
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  background-color: var(--background-color-tertiary);
 }
