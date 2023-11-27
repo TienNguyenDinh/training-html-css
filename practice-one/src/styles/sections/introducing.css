@@ -13,14 +13,14 @@
 
 .summary-heading {
   margin-bottom: 24px;
-  font-size: 46px;
+  font-size: var(--font-size-2xl);
   line-height: 50px;
 
   & .tere { color: var(--color-text-tertiary) }
 }
 
 .summary-content {
-  font-size: 23px;
+  font-size: var(--font-size-medium);
   line-height: 26px;
 }
 
@@ -36,13 +36,13 @@
   width: 290px;
 }
 
-.feature-icon {
+.feature-order {
   position: relative;
   width: 63px;
   height: 63px;
 
-  & .icon-number {
-    font-size: 34px;
+  & .order-number {
+    font-size: var(--font-size-xl);
     line-height: 36px;
     font-weight: 800;
     color: var(--color-text-tertiary);
@@ -50,16 +50,16 @@
 }
 
 .feature-heading {
-  font-size: 22px;
+  font-size: var(--font-size-medium);
   line-height: 50px;
 }
 
 .feature-content {
-  font-size: 20px;
+  font-size: var(--font-size-small);
   line-height: 26px;
 }
 
-.icon-number {
+.order-number {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -84,12 +84,17 @@
   margin-bottom: 36px;
 }
 
-.features-background {
+.features-slider {
   position: relative;
   z-index: 0;
 }
 
-.features-layout {
+.slider-img {
+  width: 281px;
+  height: 567px;
+}
+
+.slider-layout {
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -101,7 +106,7 @@
   background-color: var(--background-color-primary);
 }
 
-.slider {
+.slider-dots {
   position: absolute;
   bottom: -60px;
   left: 50%;
