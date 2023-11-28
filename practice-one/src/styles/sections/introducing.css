@@ -80,8 +80,9 @@
   margin-bottom: 36px;
 }
 
-.features {
+.features-carousel {
   position: relative;
+  padding-bottom: 60px;
 }
 
 .carousel-indicators {
@@ -102,10 +103,6 @@
   &.active {
     opacity: 1;
   }
-}
-
-.carousel-inner {
-  padding-bottom: 60px;
 }
 
 .carousel-item {
