@@ -8,24 +8,6 @@ html {
 }
 
 a {
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   text-decoration: none;
 }
-
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.content {
-  color: var(--color-text-primary);
-}
-
-input[type="text"] {
-  outline: none;
-}
-
-.tere { color: var(--color-text-tertiary) }
