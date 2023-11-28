@@ -29,17 +29,19 @@
 }
 
 .feature-order {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 63px;
   height: 63px;
   background-image: url("../../assets/images/order-icon.png");
+}
 
-  & .order-number {
-    font-size: var(--font-size-xl);
-    line-height: 36px;
-    font-weight: 800;
-    color: var(--color-text-tertiary);
-  }
+.order-number {
+  font-size: var(--font-size-xl);
+  line-height: 36px;
+  font-weight: 800;
+  color: var(--color-text-tertiary);
 }
 
 .feature-heading {
@@ -52,27 +54,17 @@
   line-height: 26px;
 }
 
-.order-number {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.feature-request,
-.feature-notification {
+.feature-text-right {
   align-items: flex-end;
   text-align: right;
 }
 
-.feature-post,
-.feature-payment {
+.feature-text-left {
   align-items: flex-start;
   text-align: left;
 }
 
-.features-request-notification,
-.features-post-payment {
+.features-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -81,7 +73,6 @@
 }
 
 .features-carousel {
-  position: relative;
   padding-bottom: 60px;
 }
 
