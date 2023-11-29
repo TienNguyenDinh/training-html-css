@@ -51,9 +51,6 @@
 .benefit-heading {
   display: flex;
   gap: 0 39px;
-  font-size: var(--font-size-xl);
-  line-height: 32.5px;
-  font-weight: var(--font-weight-semi-bold);
 
   & .heading-number {
     font-size: var(--font-size-5xl);
@@ -64,25 +61,13 @@
 
   & .heading-text {
     padding-top: calc(119px - 88px);
+    font-size: var(--font-size-xl);
+    line-height: 32.5px;
+    font-weight: var(--font-weight-semi-bold);
   }
 }
 
 .benefit-content {
   font-size: var(--font-size-medium);
   line-height: 23px;
-}
-
-.working-hour-img {
-  width: 257px;
-  height: 255px;
-}
-
-.earning-img {
-  width: 248px;
-  height: 227px;
-}
-
-.support-img {
-  width: 284px;
-  height: 199px;
 }
