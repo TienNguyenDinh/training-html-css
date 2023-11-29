@@ -28,12 +28,6 @@
   gap: 0 30px;
 }
 
-.btn-download {
-  display: inline-flex;
-  gap: 0 10px;
-  align-items: center;
-}
-
 .download-img {
   width: 553px;
   height: 587px;

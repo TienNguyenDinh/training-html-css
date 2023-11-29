@@ -10,3 +10,9 @@
   text-transform: uppercase;
   background-color: var(--background-color-tertiary);
 }
+
+.btn-download {
+  display: inline-flex;
+  gap: 0 10px;
+  align-items: center;
+}
