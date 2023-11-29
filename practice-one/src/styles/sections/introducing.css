@@ -13,19 +13,13 @@
 
 .summary-heading {
   margin-bottom: 24px;
-  font-size: 46px;
+  font-size: var(--font-size-2xl);
   line-height: 50px;
 }
 
 .summary-content {
-  font-size: 23px;
+  font-size: var(--font-size-medium);
   line-height: 26px;
-}
-
-.features {
-  display: flex;
-  gap: 0 105px;
-  padding-bottom: 118px;
 }
 
 .feature {
@@ -34,47 +28,43 @@
   width: 290px;
 }
 
-.feature-icon {
-  position: relative;
+.feature-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 63px;
   height: 63px;
+  background-image: url("../../assets/images/order-icon.png");
+}
 
-  & .icon-number {
-    font-size: 34px;
-    line-height: 36px;
-    font-weight: 800;
-    color: var(--color-text-tertiary);
-  }
+.order-number {
+  font-size: var(--font-size-xl);
+  line-height: 36px;
+  font-weight: 800;
+  color: var(--color-text-tertiary);
 }
 
 .feature-heading {
-  font-size: 22px;
+  font-size: var(--font-size-medium);
   line-height: 50px;
 }
 
 .feature-content {
-  font-size: 20px;
+  font-size: var(--font-size-small);
   line-height: 26px;
 }
 
-.icon-number {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.feature-one, .feature-three {
+.feature-text-right {
   align-items: flex-end;
   text-align: right;
 }
 
-.feature-two, .feature-four {
+.feature-text-left {
   align-items: flex-start;
   text-align: left;
 }
 
-.features-one-three, .features-two-four {
+.features-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -82,39 +72,51 @@
   margin-bottom: 36px;
 }
 
-.features-background {
-  position: relative;
-  z-index: 0;
+.features-carousel {
+  padding-bottom: 60px;
 }
 
-.features-layout {
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  background-color: var(--background-color-primary);
-}
-
-.slider {
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
+.carousel-indicators {
   display: flex;
   justify-content: center;
   gap: 0 5px;
-  transform: translateX(-50%);
+  padding-top: 60px;
 }
 
-.dot {
+.indicator {
   border-radius: 50%;
   width: 13px;
   height: 13px;
   background-color: var(--background-color-primary);
   cursor: pointer;
+  opacity: .5;
 
-  &:not(:first-child) { opacity: .5; }
+  &.active {
+    opacity: 1;
+  }
+}
+
+.carousel-item {
+  display: flex;
+  gap: 0 105px;
+}
+
+.carousel-img {
+  position: relative;
+  z-index: 0;
+  width: 281px;
+  height: 567px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: var(--background-color-primary);
+  }
 }

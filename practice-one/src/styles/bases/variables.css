@@ -4,8 +4,23 @@
   --color-text-primary: #9e9da2;
   --color-text-secondary: #fff;
   --color-text-tertiary: #75bf7a;
+  
   --background-color-primary: #75bf7a;
   --background-color-secondary: #f9f9f9;
   --background-color-tertiary: #000;
   --background-color-card: #fff;
+
+  --font-size-xsmall: 17px;
+  --font-size-small: 20px;
+  --font-size-medium: 22px;
+  --font-size-large: 24px;
+  --font-size-xl: 34px;
+  --font-size-2xl: 46px;
+  --font-size-3xl: 60px;
+  --font-size-4xl: 65px;
+  --font-size-5xl: 88px;
+
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 800;
 }

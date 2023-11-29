@@ -1,0 +1,12 @@
+.heading {
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+
+.content {
+  color: var(--color-text-primary);
+}
+
+.contrast-heading {
+  color: var(--color-text-tertiary)
+}
