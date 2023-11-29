@@ -17,7 +17,6 @@
   width: 1060px;
   padding: 70px;
   background-color: var(--background-color-card);
-
   background-repeat: no-repeat;
   background-position: right 110px center;
 
@@ -39,7 +38,6 @@
 
     & .benefit-content {
       width: 520px;
-      height: 47px;
     }
   }
 }
