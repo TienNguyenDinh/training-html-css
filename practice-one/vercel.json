@@ -4,5 +4,11 @@
     {
       "src": "/src/package.json"
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/src/$1"
+    }
   ]
 }
