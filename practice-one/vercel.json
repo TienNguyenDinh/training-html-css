@@ -1,14 +1,8 @@
 {
-  "version": 2,
-  "builds": [
+  "routes": [
     {
-      "src": "/src/package.json"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/practice-one/src/$1"
+      "src": "/",
+      "dest": "/practice-one/src/index.html"
     }
   ]
 }
