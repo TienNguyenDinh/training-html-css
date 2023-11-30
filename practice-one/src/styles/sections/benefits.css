@@ -14,7 +14,7 @@
 .benefit-card {
   display: flex;
   align-items: center;
-  box-sizing: border-box; /* need to apply this style again */
+  box-sizing: border-box; /* need to apply this style again. */
   width: 1060px;
   padding-top: 70px;
   padding-bottom: 70px;
