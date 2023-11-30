@@ -34,4 +34,9 @@
 .btn-help-center {
   font-weight: var(--font-weight-semi-bold);
   background-color: var(--background-color-primary);
+  transition: .6s ease;
+
+  &:hover {
+    background-color: var(--background-color-btn-hover);
+  }
 }
