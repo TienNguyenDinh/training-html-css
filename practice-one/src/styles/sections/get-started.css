@@ -1,6 +1,7 @@
 .section-get-started {
   display: flex;
   gap: 0 100px;
+  padding-top: 55px;
   padding-bottom: 86px;
 }
 
@@ -26,12 +27,6 @@
 .download-links {
   display: flex;
   gap: 0 30px;
-}
-
-.btn-download {
-  display: inline-flex;
-  gap: 0 10px;
-  align-items: center;
 }
 
 .download-img {

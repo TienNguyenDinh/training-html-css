@@ -4,6 +4,7 @@
   --color-text-primary: #9e9da2;
   --color-text-secondary: #fff;
   --color-text-tertiary: #75bf7a;
+  --color-text-info: #8b8ba5;
   
   --background-color-primary: #75bf7a;
   --background-color-secondary: #f9f9f9;
@@ -20,6 +21,7 @@
   --font-size-4xl: 65px;
   --font-size-5xl: 88px;
 
+  --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 800;
