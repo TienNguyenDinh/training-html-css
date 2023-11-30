@@ -29,6 +29,10 @@
 .navbar-link {
   font-size: var(--font-size-xsmall);
   color: var(--color-text-link-normal);
+
+  &:hover {
+    color: var(--color-text-link-hover);
+  }
 }
 
 .btn-help-center {

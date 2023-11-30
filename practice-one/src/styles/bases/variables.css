@@ -1,6 +1,7 @@
 :root {
   --color-text-link-normal: #000;
   --color-text-link-special: #fff;
+  --color-text-link-hover: #75bf7a;
   --color-text-primary: #9e9da2;
   --color-text-secondary: #fff;
   --color-text-tertiary: #75bf7a;
