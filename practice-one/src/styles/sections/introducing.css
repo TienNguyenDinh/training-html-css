@@ -1,0 +1,123 @@
+.section-introducing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 128px;
+}
+
+.summary {
+  margin-bottom: 81px;
+  width: 620px;
+  text-align: center;
+}
+
+.summary-heading {
+  margin-bottom: 24px;
+  font-size: var(--font-size-2xl);
+  line-height: 50px;
+}
+
+.summary-content {
+  font-size: var(--font-size-medium);
+  line-height: 26px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+}
+
+.feature-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 63px;
+  height: 63px;
+  background-image: url("../../assets/images/order-icon.png");
+}
+
+.order-number {
+  font-size: var(--font-size-xl);
+  line-height: 36px;
+  font-weight: 800;
+  color: var(--color-text-tertiary);
+}
+
+.feature-heading {
+  font-size: var(--font-size-medium);
+  line-height: 50px;
+}
+
+.feature-content {
+  font-size: var(--font-size-small);
+  line-height: 26px;
+}
+
+.feature-text-right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.feature-text-left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.features-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.features-carousel {
+  padding-bottom: 60px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 0 5px;
+  padding-top: 90px;
+}
+
+.indicator {
+  border-radius: 50%;
+  width: 13px;
+  height: 13px;
+  background-color: var(--background-color-primary);
+  cursor: pointer;
+  opacity: .5;
+
+  &.active,
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.carousel-item {
+  display: flex;
+  gap: 0 105px;
+}
+
+.carousel-img {
+  position: relative;
+  z-index: 0;
+  width: 281px;
+  height: 567px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: var(--background-color-primary);
+  }
+}

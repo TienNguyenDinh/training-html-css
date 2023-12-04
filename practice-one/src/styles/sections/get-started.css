@@ -1,0 +1,36 @@
+.section-get-started {
+  display: flex;
+  gap: 0 100px;
+  padding-top: 55px;
+  padding-bottom: 86px;
+}
+
+.download {
+  align-self: flex-end;
+  width: 557px;
+}
+
+.download-info {
+  margin-bottom: 62px;
+}
+
+.download-heading {
+  margin-bottom: 27px;
+  font-size: var(--font-size-3xl);
+  line-height: 66px;
+}
+
+.download-content { 
+  font-size: var(--font-size-large);
+  line-height: 28px;
+}
+
+.download-links {
+  display: flex;
+  gap: 0 30px;
+}
+
+.download-img {
+  width: 553px;
+  height: 587px;
+}

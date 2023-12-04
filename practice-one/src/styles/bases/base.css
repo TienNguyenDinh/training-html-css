@@ -1,0 +1,18 @@
+html {
+  font-size: 16px;
+  font-family: 'gilroy', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: var(--font-weight-medium);
+  text-decoration: none;
+}
+
+input,
+button {
+  font-family: 'gilroy', sans-serif;
+}
