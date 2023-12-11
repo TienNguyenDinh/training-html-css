@@ -1,27 +1,72 @@
-## OVERVIEW
+# OVERVIEW
 
-* This document provides requirements, technical stack, and estimation for HTML CSS Practice.
-* Design: [figma](https://www.figma.com/file/EKwr6Bv1LsXdmDeo4FJMjo/Ride-sharing-web-ui---bootstrap-guide-lines-(Community)?type=design&node-id=36%3A54643&mode=design&t=pexqcgU7063mTSxG-1)
+This document provides requirements, technical stack, and estimation for HTML CSS Practice two.
 
-# TIMELINE
+## TIMELINE
 
-* 32 hours  (from 2023/11/16 - to 2023/11/23).
+* Expected: 48 hours  (from 2023/12/11 - to 2023/12/26).
 
-# TEAM SIZE
+## TEAM SIZE
 
-* One developer
+* One developer.
 
-# TARGET
+## TARGET
 
-* Understand HTML5/CSS3 properties and use them correctly
-* Slice from Figma to HTML/CSS
-* Understand the concepts of Flexbox
-* Cross-browser testing (Chrome, Firefox, and Safari latest version)
+* Build site that will be applied all HTML/CSS knowledge.
+* Understand the concepts of Grid CSS.
+* Apply mobile-first for practice.
+* Responsive (Mobile, Tablet, Desktop).
 
-# TECHNICAL STACK
+## TECHNICAL STACK
 
 * HTML5/CSS3
 
-# TASK MANAGEMENT
+## DESIGN
 
-* [Trello](https://trello.com/b/u86xROVi/tiennguyen-internship-html-css)
+* Design: [figma](https://www.figma.com/file/DzJFTjVSo33mggncByRIwG/Hofmann-UI-Kit---Page-Templates-(Copy)?mode=dev).
+* Including sections: Header, Hero, Team, Plan, Places, Entry, Footer.
+* Excluding sections: Feedback, Advantages, Contact, Map.
+ 
+## TASK MANAGEMENT
+
+* [Trello](https://trello.com/b/u86xROVi/tiennguyen-internship-html-css).
+
+## REQUIREMENTS
+
+* Apply mobile-first for practice.
+* Apply Grid CSS.
+* Responsive (Mobile, Tablet, Desktop).
+* Check PageSpeed Insight (least > 95%).
+* Apply cross browser with latest version.
+
+## GETTING STARTED
+
+* Clone the repository
+
+```bash
+git clone https://github.com/TienNguyenDinh/training-html-css.git
+```
+
+* Move to folder `practice-two`
+
+```bash
+cd training-html-css/practice-two
+```
+
+* Checkout to branch `practice-two`
+
+```bash
+git checkout practice-two
+```
+
+* Install packages
+
+```bash
+npm install
+```
+
+* Run the server
+
+```bash
+npm start
+```
