@@ -1,14 +1,1 @@
-.roboto {
-  font-family: 'Roboto', Times;
-  font-weight: 400;
-}
-
-.lucida {
-  font-family: 'lucida grande', Times;
-  font-weight: 700;
-}
-
-.sans {
-  font-family: "test", Times;
-  font-weight: 700;
-}
+@import url('base/all.css');
