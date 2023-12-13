@@ -1,0 +1,18 @@
+:root {
+  --font-size-xsmall-mobile: 12px;
+  --font-size-xl-mobile: 24px;
+
+  --font-size-xsmall-tablet: 12px;
+  --font-size-xl-tablet: 24px;
+
+  --font-size-xsmall-desktop: 18px;
+  --font-size-xl-desktop: 36px;
+
+  --background-color-primary: #4b4b4b;
+
+  --border-color-primary: #999;
+
+  --color-text-primary: #fff;
+  --color-text-secondary: #4b4b4b;
+  --color-text-tertiary: #ebcb80;
+}
