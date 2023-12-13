@@ -1,0 +1,23 @@
+.btn {
+  border: 2px solid;
+}
+
+@media (width >= 720px) {
+  .btn {
+    border-radius: 20px;
+  }
+  
+  .btn-link {
+    padding: 8px 27.5px;
+  }
+}
+
+@media (width >= 1440px) {
+  .btn {
+    border-radius: 25px;
+  }
+  
+  .btn-link {
+    padding: 12px 43.5px;
+  }
+}
