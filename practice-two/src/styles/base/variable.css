@@ -1,7 +1,9 @@
 /* 1 rem is defined as 16px */
 :root {
-  --font-size-xsmall: .75rem;
-  --font-size-xl: 1.5rem;
+  --base-font-size: 16;
+
+  --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
+  --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
 
   --letter-spacing-xl: 2px;
 
@@ -20,8 +22,8 @@
 
 @media (min-width: 768px) {
   :root {
-    --font-size-xsmall: .75rem;
-    --font-size-xl: 1.5rem;
+    --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
 
     --letter-spacing-xl: 2px;
   }
@@ -29,8 +31,8 @@
 
 @media (min-width: 1440px) {
   :root {
-    --font-size-xsmall: 1.125rem;
-    --font-size-xl: 2.25rem;
+    --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(36 / var(--base-font-size) * 1rem);
 
     --letter-spacing-xl: 2.49px;
   }
