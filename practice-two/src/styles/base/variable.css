@@ -1,12 +1,9 @@
+/* 1 rem is defined as 16px */
 :root {
-  --font-size-xsmall-mobile: 12px;
-  --font-size-xl-mobile: 24px;
+  --font-size-xsmall: .75rem;
+  --font-size-xl: 1.5rem;
 
-  --font-size-xsmall-tablet: 12px;
-  --font-size-xl-tablet: 24px;
-
-  --font-size-xsmall-desktop: 18px;
-  --font-size-xl-desktop: 36px;
+  --letter-spacing-xl: 2px;
 
   --background-color-primary: #4b4b4b;
 
@@ -15,4 +12,26 @@
   --color-text-primary: #fff;
   --color-text-secondary: #4b4b4b;
   --color-text-tertiary: #ebcb80;
+
+  --color-text-hover-primary: #d8cccc;
+
+  --border-btn-default: 2px solid;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-xsmall: .75rem;
+    --font-size-xl: 1.5rem;
+
+    --letter-spacing-xl: 2px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --font-size-xsmall: 1.125rem;
+    --font-size-xl: 2.25rem;
+
+    --letter-spacing-xl: 2.49px;
+  }
 }
