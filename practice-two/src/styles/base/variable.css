@@ -1,0 +1,39 @@
+/* 1 rem is defined as 16px */
+:root {
+  --base-font-size: 16;
+
+  --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
+  --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
+
+  --letter-spacing-xl: 2px;
+
+  --background-color-primary: #4b4b4b;
+
+  --border-color-primary: #999;
+
+  --color-text-primary: #fff;
+  --color-text-secondary: #4b4b4b;
+  --color-text-tertiary: #ebcb80;
+
+  --color-text-hover-primary: #d8cccc;
+
+  --border-btn-default: 2px solid;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
+
+    --letter-spacing-xl: 2px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(36 / var(--base-font-size) * 1rem);
+
+    --letter-spacing-xl: 2.49px;
+  }
+}

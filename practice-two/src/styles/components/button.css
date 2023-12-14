@@ -1,0 +1,23 @@
+.btn {
+  border: var(--border-btn-default);
+}
+
+@media (min-width: 768px) {
+  .btn {
+    border-radius: 20px;
+  }
+  
+  .btn-link {
+    padding: 12px 42.5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn {
+    border-radius: 25px;
+  }
+  
+  .btn-link {
+    padding: 13px 43.5px;
+  }
+}
