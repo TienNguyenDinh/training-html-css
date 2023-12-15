@@ -16,7 +16,7 @@
   color: var(--color-text-tertiary);
 }
 
-#menu-toggle-checkbox {
+.menu-toggle-checkbox {
   display: none;
 }
 

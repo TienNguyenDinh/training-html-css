@@ -5,13 +5,12 @@
 }
 
 @media (width >= 768px) {
-  
   .btn-link {
     padding: 12px 42.5px;
   }
 }
 
-@media (width >= 1440px) {
+@media (min-width: 1440px) {
   .btn {
     border-radius: 25px;
   }
