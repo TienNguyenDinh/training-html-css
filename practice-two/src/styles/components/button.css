@@ -1,11 +1,10 @@
 .btn {
-  border: var(--border-btn-default);
+  border-radius: 20px;
+  border-width: var(--border-btn-width-default);
+  border-style: var(--border-btn-style-default);
 }
 
 @media (width >= 768px) {
-  .btn {
-    border-radius: 20px;
-  }
   
   .btn-link {
     padding: 12px 42.5px;

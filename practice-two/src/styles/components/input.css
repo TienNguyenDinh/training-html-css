@@ -1,0 +1,6 @@
+.input {
+  border-width: var(--border-input-width-default);
+  border-style: var(--border-input-style-default);
+  border-radius: 4px;
+  opacity: .8;
+}
