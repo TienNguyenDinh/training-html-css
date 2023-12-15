@@ -10,7 +10,7 @@
   }
 }
 
-@media (width >= 1440px) {
+@media (min-width: 1440px) {
   .btn {
     border-radius: 25px;
   }
