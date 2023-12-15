@@ -2,6 +2,7 @@
   border-radius: 20px;
   border-width: var(--border-btn-width-default);
   border-style: var(--border-btn-style-default);
+  cursor: pointer;
 }
 
 @media (width >= 768px) {
