@@ -3,37 +3,58 @@
   --base-font-size: 16;
 
   --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
+  --font-size-lg: calc(20 / var(--base-font-size) * 1rem);
   --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
 
+  --letter-spacing-xsmall: -0.8px;
   --letter-spacing-xl: 2px;
+
+  --line-height-lg: calc(24 / var(--base-font-size) * 1rem);
 
   --background-color-primary: #4b4b4b;
 
+  --background-color-fallback: lightgray;
+
   --border-color-primary: #999;
+  --border-color-secondary: #4b4b4b;
 
   --color-text-primary: #fff;
   --color-text-secondary: #4b4b4b;
   --color-text-tertiary: #ebcb80;
+  --color-text-unique: #3c3c3c;
 
   --color-text-hover-primary: #d8cccc;
 
-  --border-btn-default: 2px solid;
+  --border-btn-width-default: 2px;
+  --border-btn-style-default: solid;
+
+  --border-input-width-default: 1px;
+  --border-input-style-default: solid;
 }
 
 @media (min-width: 768px) {
   :root {
     --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
-    --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
+    --font-size-lg: calc(24 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(32 / var(--base-font-size) * 1rem);
 
+    --letter-spacing-xsmall: -0.8px;
     --letter-spacing-xl: 2px;
+
+    --line-height-lg: calc(36 / var(--base-font-size) * 1rem);
   }
 }
 
 @media (min-width: 1440px) {
   :root {
+    --font-size-xxsmall: calc(16 / var(--base-font-size) * 1rem);
     --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
-    --font-size-xl: calc(36 / var(--base-font-size) * 1rem);
+    --font-size-lg: calc(36 / var(--base-font-size) * 1rem);
+    --font-size-xl: calc(44 / var(--base-font-size) * 1rem);
 
+    --letter-spacing-xsmall: -1.6px;
     --letter-spacing-xl: 2.49px;
+
+    --line-height-lg: calc(48 / var(--base-font-size) * 1rem);;
   }
 }
