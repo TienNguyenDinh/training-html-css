@@ -39,8 +39,6 @@
 .hero-form {
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
   gap: 16px;
   margin-bottom: 40px;
 }
@@ -57,7 +55,7 @@
 }
 
 .btn-hero {
-  padding: 7px 62.68px;
+  padding: 7px 63px;
   font-size: var(--font-size-xsmall);
   text-transform: uppercase;
   background-color: transparent;
@@ -105,7 +103,7 @@
   }
 
   .btn-hero {
-    padding: 11px 43px;
+    padding: 11px 38px;
   }
   
   .hero-icons {
@@ -155,7 +153,7 @@
   }
 
   .btn-hero {
-    padding: 11.5px 59px;
+    padding: 11.5px 51.5px;
   }
 
   .hero-icons {
