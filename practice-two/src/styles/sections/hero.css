@@ -57,8 +57,7 @@
 }
 
 .btn-hero {
-  padding: 7px 68px;
-  border-radius: 1px;
+  padding: 7px 62.68px;
   font-size: var(--font-size-xsmall);
   text-transform: uppercase;
   background-color: transparent;
@@ -69,6 +68,15 @@
 .hero-icons {
   display: flex;
   gap: 20px;
+}
+
+.icon-link {
+  display: block;
+}
+
+.hero-icon-svg {
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 768px) {
@@ -93,9 +101,7 @@
   }
 
   .hero-input {
-    padding: 12px 0;
-    padding-left: 11px;
-    padding-right: 69px;
+    padding: 12px 69px 12px 11px;
   }
 
   .btn-hero {
@@ -140,18 +146,16 @@
   }
 
   .hero-input {
-    padding: 14px 0;
-    padding-left: 18px;
-    padding-right: 55px;
+    padding: 14px 55px 14px 18px;
     font-size: var(--font-size-xxsmall);
+
+    &::placeholder {
+      font-size: var(--font-size-xxsmall);
+    }
   }
 
   .btn-hero {
     padding: 11.5px 59px;
-  }
-
-  .hero-input::placeholder {
-    font-size: var(--font-size-xxsmall);
   }
 
   .hero-icons {
