@@ -6,12 +6,21 @@
   --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
   --font-size-lg: calc(20 / var(--base-font-size) * 1rem);
   --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
+  --font-size-2xl: calc(36 / var(--base-font-size) * 1rem);
 
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --letter-spacing-xxsmall: -1.3px;
   --letter-spacing-xsmall: -0.8px;
+  --letter-spacing-md: .67px;
   --letter-spacing-xl: 2px;
+
   --line-height-md: calc(16 / var(--base-font-size) * 1rem);
   --line-height-lg: calc(24 / var(--base-font-size) * 1rem);
+  --line-height-2lg: calc(27 / var(--base-font-size) * 1rem);
   --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
+  --line-height-2xl: calc(48 / var(--base-font-size) * 1rem);
 
   --background-color-primary: #4b4b4b;
   --background-color-fallback: lightgray;
@@ -39,12 +48,18 @@
     --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(24 / var(--base-font-size) * 1rem);
     --font-size-xl: calc(32 / var(--base-font-size) * 1rem);
+    --font-size-2xl: calc(36 / var(--base-font-size) * 1rem);
 
+    --letter-spacing-xxsmall: -1.3px;
     --letter-spacing-xsmall: -0.8px;
+    --letter-spacing-md: .67px;
     --letter-spacing-xl: 2px;
+
     --line-height-md: calc(16 / var(--base-font-size) * 1rem);
-    --line-height-lg: calc(36 / var(--base-font-size) * 1rem);
+    --line-height-lg: calc(27 / var(--base-font-size) * 1rem);
+    --line-height-2lg: calc(36 / var(--base-font-size) * 1rem);
     --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
+    --line-height-xl: calc(48 / var(--base-font-size) * 1rem);
   }
 }
 
@@ -52,10 +67,20 @@
   :root {
     --font-size-xxsmall: calc(16 / var(--base-font-size) * 1rem);
     --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
+    --font-size-small: calc(24 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(36 / var(--base-font-size) * 1rem);
     --font-size-xl: calc(44 / var(--base-font-size) * 1rem);
+    --font-size-2xl: calc(64 / var(--base-font-size) * 1rem);
+
     --line-height-md: calc(24 / var(--base-font-size) * 1rem);
+    --line-height-lg: calc(27 / var(--base-font-size) * 1rem);
+    --line-height-2lg: calc(36 / var(--base-font-size) * 1rem);
+    --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
+    --line-height-xl: calc(48 / var(--base-font-size) * 1rem);
+
+    --letter-spacing-xxsmall: -2.3px;
     --letter-spacing-xsmall: -1.6px;
+    --letter-spacing-md: 1px;
     --letter-spacing-xl: 2.49px;
 
     --line-height-lg: calc(48 / var(--base-font-size) * 1rem);;
