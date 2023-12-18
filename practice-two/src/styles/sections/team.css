@@ -1,0 +1,85 @@
+.team-section {
+  color: var(--color-text-secondary);
+}
+
+.team-container {
+  padding-top: 40px;
+  padding-bottom: 71px;
+}
+
+.team-heading {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 285px);
+  gap: 36px 31px;
+  justify-content: center;
+}
+
+.team-member {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto 1fr;
+}
+
+.member-name {
+  margin-bottom: 4px;
+  font-size: var(--font-size-xsmall);
+}
+
+.member-avatar {
+  grid-row: span 3;
+  margin-right: 21px;
+  width: 48px;
+  height: 48px;
+}
+
+.member-role {
+  margin-bottom: 9px;
+  font-size: var(--font-size-xxsmall);
+}
+
+.member-bio {
+  font-size: var(--font-size-xxsmall);
+  line-height: var(--line-height-md);
+}
+
+@media (min-width: 768px) {
+  .team-heading {
+    margin-bottom: 23px;
+  }
+
+  .member-avatar {
+    margin-right: 16.5px;
+    width: 62px;
+    height: 62px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-container {
+    padding-top: 54px;
+    padding-bottom: 103px;
+  }
+
+  .team-heading {
+    margin-bottom: 53px;
+  }
+
+  .team-members {
+    grid-template-columns: repeat(auto-fill, 340px);
+    row-gap: 74px;
+  }
+
+  .member-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .member-role {
+    margin-bottom: 14px;
+  }
+}
