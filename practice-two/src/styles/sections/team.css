@@ -15,7 +15,7 @@
 .team-members {
   display: grid;
   grid-template-columns: repeat(auto-fill, 285px);
-  gap: 36px 31px;
+  gap: 36px 0;
   justify-content: center;
 }
 
@@ -34,7 +34,6 @@
   grid-row: span 3;
   margin-right: 21px;
   width: 48px;
-  height: 48px;
 }
 
 .member-role {
@@ -55,7 +54,10 @@
   .member-avatar {
     margin-right: 16.5px;
     width: 62px;
-    height: 62px;
+  }
+
+  .team-members {
+    gap: 36px 30px;
   }
 }
 
@@ -71,12 +73,11 @@
 
   .team-members {
     grid-template-columns: repeat(auto-fill, 340px);
-    row-gap: 74px;
+    gap: 74px 50px;
   }
 
   .member-avatar {
     width: 80px;
-    height: 80px;
   }
 
   .member-role {
