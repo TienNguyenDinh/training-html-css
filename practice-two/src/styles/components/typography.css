@@ -1,0 +1,18 @@
+.section-heading {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-xl);
+  letter-spacing: var(--letter-spacing-xsmall);
+}
+
+@media (min-width: 768px) {
+  .section-heading {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+  }
+}
+
+@media (min-width: 1440px) {
+  .section-heading {
+    line-height: var(--line-height-lg);
+  }
+}

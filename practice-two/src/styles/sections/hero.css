@@ -26,9 +26,6 @@
 .hero-heading {
   margin-bottom: 15px;
   width: 190px;
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-lg);
-  letter-spacing: var(--letter-spacing-xsmall);
 }
 
 .hero-content {

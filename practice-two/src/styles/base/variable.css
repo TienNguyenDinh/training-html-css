@@ -2,20 +2,24 @@
 :root {
   --base-font-size: 16;
 
+  --font-size-xxsmall: calc(11 / var(--base-font-size) * 1rem);
   --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
   --font-size-lg: calc(20 / var(--base-font-size) * 1rem);
   --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
 
   --letter-spacing-xsmall: -0.8px;
   --letter-spacing-xl: 2px;
-  
+
+  --line-height-md: calc(16 / var(--base-font-size) * 1rem);
   --line-height-lg: calc(24 / var(--base-font-size) * 1rem);
+  --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
 
   --background-color-primary: #4b4b4b;
   --background-color-fallback: #d3d3d3;
 
   --border-color-primary: #999;
   --border-color-secondary: #4b4b4b;
+  --border-color-avatar: #afafaf;
 
   --color-text-primary: #fff;
   --color-text-secondary: #4b4b4b;
@@ -33,14 +37,16 @@
 
 @media (min-width: 768px) {
   :root {
+    --font-size-xxsmall: calc(11 / var(--base-font-size) * 1rem);
     --font-size-xsmall: calc(12 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(24 / var(--base-font-size) * 1rem);
     --font-size-xl: calc(32 / var(--base-font-size) * 1rem);
 
     --letter-spacing-xsmall: -0.8px;
     --letter-spacing-xl: 2px;
-
+    --line-height-md: calc(16 / var(--base-font-size) * 1rem);
     --line-height-lg: calc(36 / var(--base-font-size) * 1rem);
+    --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
   }
 }
 
@@ -50,7 +56,7 @@
     --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(36 / var(--base-font-size) * 1rem);
     --font-size-xl: calc(44 / var(--base-font-size) * 1rem);
-
+    --line-height-md: calc(24 / var(--base-font-size) * 1rem);
     --letter-spacing-xsmall: -1.6px;
     --letter-spacing-xl: 2.49px;
 
