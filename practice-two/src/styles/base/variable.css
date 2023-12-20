@@ -7,15 +7,22 @@
   --font-size-lg: calc(20 / var(--base-font-size) * 1rem);
   --font-size-xl: calc(24 / var(--base-font-size) * 1rem);
 
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
   --letter-spacing-xsmall: -0.8px;
   --letter-spacing-xl: 2px;
 
   --line-height-md: calc(16 / var(--base-font-size) * 1rem);
   --line-height-lg: calc(24 / var(--base-font-size) * 1rem);
+  --line-height-2lg: calc(27 / var(--base-font-size) * 1rem);
   --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
 
   --background-color-primary: #4b4b4b;
   --background-color-fallback: #d3d3d3;
+
+  --background-color-translucent-white: #ffffff38;
+  --background-color-transparent-white: #fff0;
 
   --border-color-primary: #999;
   --border-color-secondary: #4b4b4b;
@@ -44,6 +51,7 @@
 
     --letter-spacing-xsmall: -0.8px;
     --letter-spacing-xl: 2px;
+    
     --line-height-md: calc(16 / var(--base-font-size) * 1rem);
     --line-height-lg: calc(36 / var(--base-font-size) * 1rem);
     --line-height-xl: calc(40 / var(--base-font-size) * 1rem);
@@ -56,10 +64,11 @@
     --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(36 / var(--base-font-size) * 1rem);
     --font-size-xl: calc(44 / var(--base-font-size) * 1rem);
+
     --line-height-md: calc(24 / var(--base-font-size) * 1rem);
+    --line-height-lg: calc(48 / var(--base-font-size) * 1rem);
+
     --letter-spacing-xsmall: -1.6px;
     --letter-spacing-xl: 2.49px;
-
-    --line-height-lg: calc(48 / var(--base-font-size) * 1rem);;
   }
 }
