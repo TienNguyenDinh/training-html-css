@@ -88,8 +88,6 @@
 
   .avatar-img {
     border-width: 1px;
-    border-radius: 50%;
-    background-color: var(--border-color-avatar);
   }
 
   .member-role {
