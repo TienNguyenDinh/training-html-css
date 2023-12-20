@@ -28,11 +28,11 @@
   --background-color-btn-primary: #ebcb80;
   --background-color-btn-secondary: #4b4b4b;
 
-  --background-color-silver-color1: #ffffff38;
-  --background-color-silver-color2: #ffffff;
+  --background-color-translucent-white: #ffffff38;
+  --background-color-transparent-white: #fff0;
   --background-color-card-gold: #f0d691;
-  --background-color-card-platinum1: #00000000;
-  --background-color-card-platinum2: #00000066;
+  --background-color-transparent-black: #00000000;
+  --background-color-translucent-black: #00000066;
 
   --box-shadow-card: rgba(0, 0, 0, 0.50);
 

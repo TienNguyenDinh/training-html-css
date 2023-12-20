@@ -25,8 +25,8 @@
 .plan-card-silver {
   background: linear-gradient(
     224deg,
-    var(--background-color-card-silver1) 5.13%,
-    var(--background-color-card-silver2) 90.88%);
+    var(--background-color-translucent-white) 5.13%,
+    var(--background-color-transparent-white) 90.88%);
   color: var(--color-text-primary);
 }
 
@@ -38,8 +38,8 @@
 .plan-card-platinum {
   background: linear-gradient(
     223deg,
-    var(--background-color-card-platinum1) 4.85%,
-    var(--background-color-card-platinum2) 96.5%);
+    var(--background-color-transparent-black) 4.85%,
+    var(--background-color-translucent-black) 96.5%);
   color: var(--color-text-primary);
 }
 
