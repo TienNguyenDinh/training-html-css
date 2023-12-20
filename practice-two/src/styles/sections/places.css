@@ -1,3 +1,115 @@
-.img {
-  max-width: 300px;
+.places-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 40px;
+}
+
+.places-heading {
+  margin-bottom: 18px;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-secondary);
+}
+
+.select-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: var(--font-size-xsmall);
+  pointer-events: none;
+  color: var(--color-text-secondary);
+}
+
+.select-places-locations {
+  border: 1px var(--border-btn-style-default) var(--border-color-secondary);
+  border-radius: 20px;
+  padding-left: 32.5px;
+  padding-right: 32.5px;
+  font-size: var(--font-size-xsmall);
+  line-height: var(--line-height-lg);
+  appearance: none;
+  cursor: pointer;
+}
+
+.list-places-locations { display: none; }
+
+.places-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .places-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 41px;
+    padding-bottom: 48px;
+  }
+
+  .select-wrapper { display: none; }
+
+  .list-places-locations { display: flex; }
+
+  .places-heading {
+    margin-bottom: 11px;
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
+  }
+
+  .list-places-locations {
+    gap: 0 54px;
+    margin-bottom: 20px;
+  }
+
+  .places-location {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-md);
+    letter-spacing: var(--letter-spacing-small);
+    text-transform: uppercase;
+  }
+
+  .places-images {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .places-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 67px;
+    padding-bottom: 85px;
+  }
+
+  .places-heading {
+    margin-bottom: 20px;
+    line-height: var(--line-height-2xl);
+    letter-spacing: var(--letter-spacing-xsmall);
+  }
+
+  .list-places-locations {
+    margin-bottom: 30px;
+  }
+
+  .places-location {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-lg);
+    letter-spacing: var(--letter-spacing-md);
+  }
+
+  .places-images {
+    gap: 24px;
+  }
 }
