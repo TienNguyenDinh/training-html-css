@@ -70,14 +70,13 @@
 }
 
 .plan-price {
-  padding-right: 5px;
+  padding-right: 13px;
   font-size: var(--font-size-2xl);
   line-height: var(--line-height-2xl);
   letter-spacing: var(--letter-spacing-xxsmall);
 
   & .price-symbol {
-    display: inline-block;
-    transform: translateX(-8px);
+    padding-right: 8px;
     font-size: var(--font-size-xxsmall);
     line-height: normal;
     vertical-align: super;
@@ -161,7 +160,6 @@
   .plan-price {
     & .price-symbol {
       font-size: var(--font-size-small);
-      transform: translateX(-8px);
     }
   }
 
