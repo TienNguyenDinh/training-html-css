@@ -63,6 +63,7 @@
 }
 
 .plan-price {
+  padding-right: 5px;
   font-size: var(--font-size-2xl);
   line-height: var(--line-height-2xl);
   letter-spacing: var(--letter-spacing-xxsmall);
@@ -89,7 +90,8 @@
 
 .btn.btn-purchase {
   border: none;
-  padding: 8px 36.5px;
+  padding: 8px 25.5px;
+  text-transform: uppercase;
   background-color: var(--background-color-btn-primary);
   color: var(--color-text-secondary);
 }
@@ -127,7 +129,7 @@
   }
 
   .btn.btn-purchase {
-    padding: 12px 36.5px;
+    padding: 12px 25.5px;
   }
 }
 
@@ -161,6 +163,6 @@
   }
 
   .btn.btn-purchase {
-    padding: 16px 65.5px;
+    padding: 16px 54.5px;
   }
 }
