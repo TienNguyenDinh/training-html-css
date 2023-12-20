@@ -23,21 +23,28 @@
 }
 
 .plan-card-silver {
-  background-image: url('../../assets/images/card-silver-bg.png');
+  background: linear-gradient(
+    224deg,
+    rgba(255, 255, 255, 0.22) 5.13%,
+    rgba(255, 255, 255, 0.00) 90.88%);
   color: var(--color-text-primary);
 }
 
 .plan-card-gold {
-  background-image: url('../../assets/images/card-gold-bg.png');
+  background-color: var(--background-color-card-gold);
   color: var(--color-text-secondary);
 }
 
 .plan-card-platinum {
-  background-image: url('../../assets/images/card-platinum-bg.png');
+  background: linear-gradient(
+    223deg,
+    rgba(0, 0, 0, 0.00) 4.85%,
+    rgba(0, 0, 0, 0.40) 96.5%);
   color: var(--color-text-primary);
 }
 
-.card-heading, .plan-duration {
+.card-heading,
+.plan-duration {
   font-size: var(--font-size-xsmall);
   line-height: var(--line-height-2lg);
   letter-spacing: var(--letter-spacing-md);
