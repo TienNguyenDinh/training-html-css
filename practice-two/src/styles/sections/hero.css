@@ -87,7 +87,7 @@
   .hero-heading {
     width: 405px;
     font-size: var(--font-size-xl);
-    line-height: var(--line-height-2xl);
+    line-height: var(--line-height-2lg);
   }
   
   .hero-form {
