@@ -13,6 +13,6 @@
 
 @media (min-width: 1440px) {
   .section-heading {
-    line-height: var(--line-height-lg);
+    line-height: var(--line-height-2lg);
   }
 }

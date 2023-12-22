@@ -1,0 +1,171 @@
+.section-plan {
+  background-color: var(--background-color-primary);
+}
+
+.plan-container {
+  padding-top: 52px;
+  padding-bottom: 42px;
+  text-align: center;
+}
+
+.plan-heading {
+  margin-bottom: 20px;
+  font-size: var(--font-size-lg);
+  color: var(--color-text-primary);
+}
+
+.choose-plan {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 24px 0;
+}
+
+.plan-card-silver {
+  background: linear-gradient(
+    224deg,
+    var(--background-color-translucent-white) 5.13%,
+    var(--background-color-transparent-white) 90.88%);
+  color: var(--color-text-primary);
+}
+
+.plan-card-gold {
+  background-color: var(--background-color-card-gold);
+  color: var(--color-text-secondary);
+}
+
+.plan-card-platinum {
+  background: linear-gradient(
+    223deg,
+    var(--background-color-transparent-black) 4.85%,
+    var(--background-color-translucent-black) 96.5%);
+  color: var(--color-text-primary);
+}
+
+.card-heading,
+.plan-duration {
+  font-size: var(--font-size-xsmall);
+  line-height: var(--line-height-2lg);
+  letter-spacing: var(--letter-spacing-md);
+}
+
+.card-heading {
+  font-family: 'lucida grande', sans-serif;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
+.plan-card-gold .card-heading {
+  color: var(--color-text-secondary);
+}
+
+.plan-pricing-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.plan-price {
+  padding-right: 13px;
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-2xl);
+  letter-spacing: var(--letter-spacing-xxsmall);
+
+  & .price-symbol {
+    padding-right: 8px;
+    font-size: var(--font-size-xxsmall);
+    line-height: normal;
+    vertical-align: super;
+  }
+}
+
+.plan-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 9px 0;
+  margin-bottom: 20px;
+}
+
+.plan-benefit {
+  font-size: var(--font-size-xxsmall);
+}
+
+.btn.btn-purchase {
+  border: none;
+  padding: 8px 25.5px;
+  text-transform: uppercase;
+  background-color: var(--background-color-btn-primary);
+  color: var(--color-text-secondary);
+}
+
+@media (min-width: 768px) {
+  .plan-container {
+    padding-top: 56px;
+    padding-bottom: 80px;
+  }
+
+  .plan-heading {
+    margin-bottom: 32px;
+    font-size: var(--font-size-xl);
+  }
+
+  .choose-plan {
+    flex-direction: row;
+    gap: 0 30px;
+  }
+
+  .card-heading,
+  .plan-duration {
+    line-height: var(--line-height-lg);
+  }
+
+  .card-heading,
+  .plan-pricing-info {
+    margin-bottom: 12px;
+  }
+
+  .plan-benefits {
+    margin-bottom: 20px;
+  }
+
+  .btn.btn-purchase {
+    padding: 12px 25.5px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .plan-container {
+    padding-top: 68px;
+    padding-bottom: 116px;
+  }
+
+  .plan-heading {
+    margin-bottom: 52px;
+  }
+
+  .card-heading {
+    margin-bottom: 30px;
+  }
+
+  .plan-pricing-info {
+    margin-bottom: 23px;
+  }
+
+  .plan-price {
+    & .price-symbol {
+      font-size: var(--font-size-small);
+    }
+  }
+
+  .plan-benefits {
+    margin-bottom: 30px;
+  }
+
+  .btn.btn-purchase {
+    padding: 16px 54.5px;
+  }
+}
