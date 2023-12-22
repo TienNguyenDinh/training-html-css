@@ -2,6 +2,7 @@
   font-size: var(--font-size-lg);
   line-height: var(--line-height-xl);
   letter-spacing: var(--letter-spacing-xsmall);
+  text-align: center;
 }
 
 @media (min-width: 768px) {
@@ -13,6 +14,6 @@
 
 @media (min-width: 1440px) {
   .section-heading {
-    line-height: var(--line-height-lg);
+    line-height: var(--line-height-2xl);
   }
 }

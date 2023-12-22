@@ -87,7 +87,7 @@
   .hero-heading {
     width: 405px;
     font-size: var(--font-size-xl);
-    line-height: var(--line-height-lg);
+    line-height: var(--line-height-2lg);
   }
   
   .hero-form {
@@ -133,7 +133,7 @@
   }
 
   .hero-content {
-    font-size: var(--font-size-xxsmall);
+    font-size: var(--font-size-base);
   }
 
   .hero-form {
@@ -142,10 +142,10 @@
 
   .hero-input {
     padding: 14px 55px 14px 18px;
-    font-size: var(--font-size-xxsmall);
+    font-size: var(--font-size-base);
 
     &::placeholder {
-      font-size: var(--font-size-xxsmall);
+      font-size: var(--font-size-base);
     }
   }
 
