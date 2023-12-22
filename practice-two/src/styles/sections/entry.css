@@ -5,6 +5,9 @@
 }
 
 .entry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-top: 44px;
   padding-bottom: 55px;
 }
@@ -12,25 +15,52 @@
 
 .entry-heading {
   margin-bottom: 20px;
-  text-align: center;
   color: var(--color-text-primary);
 }
 
 
 .entry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28.5px 22px 36px 20px;
   background: linear-gradient(
     224deg,
     var(--background-color-translucent-white) 5.13%,
     var(--background-color-transparent-white) 90.88%);
   background-color: var(--background-color-primary);
-  padding: 36px 22px 36px 20px;
 }
 
 .entry-form-heading {
+  margin-bottom: 11px;
   font-size: var(--font-size-xsmall);
+  line-height: var(--line-height-2lg);
   font-weight: var(--font-weight-bold);
   font-family: 'lucida grande', sans-serif;
   text-transform: uppercase;
+  color: var(--color-text-tertiary);
+}
+
+.entry-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 16px 0;
+}
+
+.entry-input {
+  padding: 9px 61px 9px 14px; 
+  font-size: var(--font-size-xxsmall);
+
+  &::placeholder {
+    font-size: var(--font-size-xxsmall);
+  }
+}
+
+.login-link {
+  display: block;
+  margin-bottom: 15px;
+  font-size: var(--font-size-xxsmall);
+  line-height: var(--line-height-lg);
   color: var(--color-text-tertiary);
 }
 
@@ -43,6 +73,24 @@
   .entry-heading {
     margin-bottom: 26px;
   }
+
+  .entry-form-heading {
+    line-height: var(--line-height-2lg);
+  }
+
+  .entry-inputs {
+    gap: 12px 0;
+  }
+
+  .entry-input {
+    padding: 11px 61px 11px 14px; 
+  }
+
+  .login-link {
+    margin-bottom: 22px;
+    font-size: var(--font-size-xxsmall);
+    line-height: var(--line-height-2md);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -53,5 +101,28 @@
 
   .entry-heading {
     margin-bottom: 36px;
+  }
+
+  .entry-form-heading {
+    margin-bottom: 28px;
+  }
+
+  .entry-inputs {
+    gap: 25px 0;
+  }
+
+  .entry-input {
+    padding: 8px 45px 8px 14px; 
+    font-size: var(--font-size-base);
+
+    &::placeholder {
+      font-size: var(--font-size-base);
+    }
+  }
+
+  .login-link {
+    margin-bottom: 19px;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-2md);
   }
 }
