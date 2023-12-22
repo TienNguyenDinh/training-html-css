@@ -118,14 +118,12 @@
     gap: 0 30px;
   }
 
-  .card-heading, .plan-duration {
+  .card-heading,
+  .plan-duration {
     line-height: var(--line-height-lg);
   }
 
-  .card-heading {
-    margin-bottom: 12px;
-  }
-
+  .card-heading,
   .plan-pricing-info {
     margin-bottom: 12px;
   }
