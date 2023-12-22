@@ -15,17 +15,17 @@
 .select-wrapper {
   position: relative;
   margin-bottom: 25px;
-}
 
-.select-wrapper::after {
-  content: "▼";
-  position: absolute;
-  right: 11px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: var(--font-size-xsmall);
-  pointer-events: none;
-  color: var(--color-text-secondary);
+  &::after {
+    content: "\25BC";
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: var(--font-size-xsmall);
+    pointer-events: none;
+    color: var(--color-text-secondary);
+  }
 }
 
 .select-places-locations {
@@ -39,7 +39,9 @@
   cursor: pointer;
 }
 
-.list-places-locations { display: none; }
+.list-places-locations {
+  display: none;
+}
 
 .places-images {
   display: flex;
@@ -57,9 +59,13 @@
     padding-bottom: 48px;
   }
 
-  .select-wrapper { display: none; }
+  .select-wrapper {
+    display: none;
+  }
 
-  .list-places-locations { display: flex; }
+  .list-places-locations {
+    display: flex;
+  }
 
   .places-heading {
     margin-bottom: 11px;
