@@ -43,6 +43,19 @@
   display: none;
 }
 
+.location {
+  cursor: pointer;
+}
+
+.location-radio {
+  display: none;
+
+  &:checked + .location {
+    text-decoration: underline;
+    color: var(--color-text-tertiary);
+  }
+}
+
 .places-images {
   display: flex;
   justify-content: center;
