@@ -1,0 +1,39 @@
+.main-footer {
+  background-color: var(--background-color-primary);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 17.5px;
+}
+
+.social-icon-svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  opacity: 0.5;
+
+  &.pinterest-svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  &.twitter-svg {
+    width: 21px;
+    height: 21px;
+  }
+}
+
+.btn-top {
+  display: flex;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+}
