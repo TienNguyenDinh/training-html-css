@@ -12,12 +12,10 @@
   padding-bottom: 55px;
 }
 
-
 .entry-heading {
   margin-bottom: 20px;
   color: var(--color-text-primary);
 }
-
 
 .entry-form {
   display: flex;
@@ -50,10 +48,6 @@
 .entry-input {
   padding: 9px 61px 9px 14px; 
   font-size: var(--font-size-xxsmall);
-
-  &::placeholder {
-    font-size: var(--font-size-xxsmall);
-  }
 }
 
 .login-link {
@@ -114,10 +108,6 @@
   .entry-input {
     padding: 8px 45px 8px 14px; 
     font-size: var(--font-size-base);
-
-    &::placeholder {
-      font-size: var(--font-size-base);
-    }
   }
 
   .login-link {
