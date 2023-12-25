@@ -11,6 +11,7 @@
   --font-weight-bold: 700;
 
   --letter-spacing-xsmall: -0.8px;
+  --letter-spacing-md: .67px;
   --letter-spacing-xl: 2px;
 
   --line-height-md: calc(16 / var(--base-font-size) * 1rem);
@@ -20,6 +21,9 @@
 
   --background-color-primary: #4b4b4b;
   --background-color-fallback: #d3d3d3;
+
+  --background-color-btn-primary: #ebcb80;
+  --background-color-btn-secondary: #4b4b4b;
 
   --background-color-translucent-white: #ffffff38;
   --background-color-transparent-white: #fff0;
@@ -50,6 +54,7 @@
     --font-size-xl: calc(32 / var(--base-font-size) * 1rem);
 
     --letter-spacing-xsmall: -0.8px;
+    --letter-spacing-md: .67px;
     --letter-spacing-xl: 2px;
     
     --line-height-md: calc(16 / var(--base-font-size) * 1rem);
@@ -74,6 +79,7 @@
     --line-height-2xl: calc(48 / var(--base-font-size) * 1rem);
 
     --letter-spacing-xsmall: -1.6px;
+    --letter-spacing-md: 1px;
     --letter-spacing-xl: 2.49px;
   }
 }
