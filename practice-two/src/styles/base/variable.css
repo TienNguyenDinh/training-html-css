@@ -30,6 +30,7 @@
 
   --background-color-translucent-white: #ffffff38;
   --background-color-transparent-white: #fff0;
+
   --background-color-card-gold: #f0d691;
   --background-color-transparent-black: #00000000;
   --background-color-translucent-black: #00000066;
@@ -78,7 +79,8 @@
 
 @media (min-width: 1440px) {
   :root {
-    --font-size-xxsmall: calc(16 / var(--base-font-size) * 1rem);
+    --font-size-xxsmall: calc(14 / var(--base-font-size) * 1rem);
+    --font-size-base: calc(16 / var(--base-font-size) * 1rem);
     --font-size-xsmall: calc(18 / var(--base-font-size) * 1rem);
     --font-size-small: calc(24 / var(--base-font-size) * 1rem);
     --font-size-lg: calc(36 / var(--base-font-size) * 1rem);
@@ -95,7 +97,5 @@
     --letter-spacing-xsmall: -1.6px;
     --letter-spacing-md: 1px;
     --letter-spacing-xl: 2.49px;
-
-    --line-height-lg: calc(48 / var(--base-font-size) * 1rem);;
   }
 }
