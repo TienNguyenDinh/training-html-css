@@ -84,16 +84,13 @@
     margin-bottom: 26px;
   }
 
-  .entry-inputs {
-    margin-bottom: 22px;
-  }
-
   .entry-form-heading {
     line-height: var(--line-height-2lg);
   }
 
   .entry-inputs {
     gap: 12px 0;
+    margin-bottom: 22px;
   }
 
   .entry-input {
@@ -132,16 +129,13 @@
     margin-bottom: 36px;
   }
 
-  .entry-inputs {
-    margin-bottom: 27px;
-  }
-
   .entry-form-heading {
     margin-bottom: 28px;
   }
 
   .entry-inputs {
     gap: 25px 0;
+    margin-bottom: 27px;
   }
 
   .entry-input {
