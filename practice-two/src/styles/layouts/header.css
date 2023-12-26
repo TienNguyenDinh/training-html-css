@@ -10,9 +10,9 @@
 }
 
 .brand-name {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-xl);
   text-transform: uppercase;
-  letter-spacing: var(--letter-spacing-xl);
+  letter-spacing: var(--letter-spacing-2xl);
   color: var(--color-text-tertiary);
 }
 
@@ -76,6 +76,10 @@
     padding-bottom: 32px;
   }
 
+  .brand-name {
+    font-size: var(--font-size-lg);
+  }
+
   .menu-toggle,
   .menu-toggle-checkbox {
     display: none;
@@ -105,8 +109,8 @@
 
 @media (min-width: 1440px) {
   .header-container {
-    padding-top: 39px;
-    padding-bottom: 39px;
+    padding-top: 54px;
+    padding-bottom: 56px;
   }
 
   .nav-list {
