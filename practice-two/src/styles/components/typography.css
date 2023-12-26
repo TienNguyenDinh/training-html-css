@@ -1,6 +1,6 @@
 .section-heading {
   font-size: var(--font-size-lg);
-  line-height: var(--line-height-xl);
+  line-height: var(--line-height-lg);
   letter-spacing: var(--letter-spacing-xsmall);
   text-align: center;
 }

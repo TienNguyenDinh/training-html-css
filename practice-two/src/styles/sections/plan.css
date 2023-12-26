@@ -10,14 +10,12 @@
 
 .plan-heading {
   margin-bottom: 20px;
-  font-size: var(--font-size-lg);
   color: var(--color-text-primary);
 }
 
 .choose-plan {
   display: flex;
   flex-direction: column;
-  justify-items: center;
   align-items: center;
   gap: 24px 0;
 }
@@ -95,11 +93,18 @@
 }
 
 .btn.btn-purchase {
+  transition-property: border-radius, transform;
+  transition-duration: 150ms;
   border: none;
-  padding: 8px 25.5px;
+  padding: 10.5px 42px;
   text-transform: uppercase;
   background-color: var(--background-color-btn-primary);
   color: var(--color-text-secondary);
+
+  &:hover {
+    transform: scale(1.1);
+    border-radius: 4px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -110,12 +115,11 @@
 
   .plan-heading {
     margin-bottom: 32px;
-    font-size: var(--font-size-xl);
   }
 
   .choose-plan {
     flex-direction: row;
-    gap: 0 30px;
+    justify-content: space-between;
   }
 
   .card-heading,
@@ -133,7 +137,7 @@
   }
 
   .btn.btn-purchase {
-    padding: 12px 25.5px;
+    padding: 14.5px 42px;
   }
 }
 
@@ -156,6 +160,8 @@
   }
 
   .plan-price {
+    padding-bottom: 15px;
+
     & .price-symbol {
       font-size: var(--font-size-small);
     }
@@ -165,7 +171,11 @@
     margin-bottom: 30px;
   }
 
+  .plan-benefit {
+    font-size: var(--font-size-base);
+  }
+
   .btn.btn-purchase {
-    padding: 16px 54.5px;
+    padding: 16px 58.25px;
   }
 }

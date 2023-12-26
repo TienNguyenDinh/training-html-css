@@ -144,6 +144,8 @@ table {
 }
 
 input,
-select {
+select,
+button {
+  font: inherit;
   outline: none;
 }

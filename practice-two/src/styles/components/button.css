@@ -3,18 +3,20 @@
   border-radius: 20px;
   border-width: var(--border-btn-width-default);
   border-style: var(--border-btn-style-default);
+  font-size: var(--font-size-xxsmall);
   cursor: pointer;
 }
 
 @media (width >= 768px) {
   .btn-link {
-    padding: 12px 42.5px;
+    padding: 12.5px 44.5px;
   }
 }
 
 @media (min-width: 1440px) {
   .btn {
     border-radius: 25px;
+    font-size: var(--font-size-base);
   }
   
   .btn-link {

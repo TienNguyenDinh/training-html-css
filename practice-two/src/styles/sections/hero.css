@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url('../../assets/images/hero-background-mobile.png');
+  background-image: url('../../assets/images/hero-background-mobile.webp');
   background-color: var(--background-color-fallback);
   background-position: center;
   background-size: cover;
@@ -29,7 +29,8 @@
 }
 
 .hero-content {
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xxsmall);
+  line-height: var(--line-height-md);
   white-space: nowrap;
 }
 
@@ -41,7 +42,7 @@
 }
 
 .hero-input {
-  padding: 8px 21px;
+  padding: 8px 30px 8px 23px;
   font-size: var(--font-size-xsmall);
   background-color: transparent;
   border-color: var(--border-color-secondary);
@@ -52,12 +53,18 @@
 }
 
 .btn-hero {
-  padding: 7px 63px;
+  transition-property: transform;
+  transition-duration: 150ms;
+  padding: 8.5px 67px;
   font-size: var(--font-size-xsmall);
   text-transform: uppercase;
   background-color: transparent;
   border-color: var(--border-color-secondary);
   color: var(--color-text-unique);
+
+  &:hover {
+    transform: scale(0.96);
+  }
 }
 
 .hero-icons {
@@ -76,12 +83,12 @@
 
 @media (min-width: 768px) {
   .hero-section {
-    background-image: url('../../assets/images/hero-background-tablet.png');
+    background-image: url('../../assets/images/hero-background-tablet.webp');
   }
 
   .hero-container {
     padding-top: 135px;
-    padding-bottom: 113px;
+    padding-bottom: 154px;
   }
 
   .hero-heading {
@@ -96,11 +103,11 @@
   }
 
   .hero-input {
-    padding: 12px 69px 12px 11px;
+    padding: 12px 75px 12px 16px;
   }
 
   .btn-hero {
-    padding: 11px 38px;
+    padding: 11px 40px;
   }
   
   .hero-icons {
@@ -115,7 +122,7 @@
 
 @media (min-width: 1440px) {
   .hero-section {
-    background-image: url('../../assets/images/hero-background-desktop.png');
+    background-image: url('../../assets/images/hero-background-desktop.webp');
   }
 
   .hero-container {
@@ -141,7 +148,7 @@
   }
 
   .hero-input {
-    padding: 14px 55px 14px 18px;
+    padding: 13.5px 71px 13.5px 18px;
     font-size: var(--font-size-base);
 
     &::placeholder {
@@ -150,7 +157,7 @@
   }
 
   .btn-hero {
-    padding: 11.5px 51.5px;
+    padding: 11.5px 54.5px;
   }
 
   .hero-icons {

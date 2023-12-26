@@ -8,7 +8,6 @@
 
 .places-heading {
   margin-bottom: 18px;
-  font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
 }
 
@@ -51,8 +50,14 @@
 }
 
 .places-image {
+  transition-property: transform;
+  transition-duration: 150ms;
   width: 116px;
   height: 116px;
+
+  &:hover {
+    transform: scale(1.04);
+  }
 }
 
 @media (min-width: 768px) {
@@ -74,8 +79,6 @@
 
   .places-heading {
     margin-bottom: 11px;
-    font-size: var(--font-size-xl);
-    line-height: var(--line-height-xl);
   }
 
   .list-places-locations {
@@ -124,8 +127,6 @@
 
   .places-heading {
     margin-bottom: 20px;
-    line-height: var(--line-height-2xl);
-    letter-spacing: var(--letter-spacing-xsmall);
   }
 
   .list-places-locations {
