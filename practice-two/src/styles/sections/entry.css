@@ -1,5 +1,5 @@
 .entry-section {
-  background-image: url('../../assets/images/entry-background-mobile.webp');
+  background-image: url('../../assets/images/entry-backgrounds/entry-background-mobile.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -73,7 +73,7 @@
 
 @media (min-width: 768px) {
   .entry-section {
-    background-image: url('../../assets/images/entry-background-tablet.webp');
+    background-image: url('../../assets/images/entry-backgrounds/entry-background-tablet.webp');
   }
   
   .entry-container {
@@ -117,7 +117,7 @@
 
 @media (min-width: 1440px) {
   .entry-section {
-    background-image: url('../../assets/images/entry-background-desktop.webp');
+    background-image: url('../../assets/images/entry-backgrounds/entry-background-desktop.webp');
   }
 
   .entry-container {
