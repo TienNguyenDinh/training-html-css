@@ -68,6 +68,7 @@
   letter-spacing: var(--letter-spacing-md);
   text-transform: uppercase;
   background-color: var(--background-color-btn-primary);
+  color: var(--color-text-secondary);
 }
 
 @media (min-width: 768px) {
