@@ -1,5 +1,5 @@
 .entry-section {
-  background-image: url('../../assets/images/entry-background-mobile.webp');
+  background-image: url('../../assets/images/entry-backgrounds/entry-background-mobile.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,11 +68,12 @@
   letter-spacing: var(--letter-spacing-md);
   text-transform: uppercase;
   background-color: var(--background-color-btn-primary);
+  color: var(--color-text-secondary);
 }
 
 @media (min-width: 768px) {
   .entry-section {
-    background-image: url('../../assets/images/entry-background-tablet.webp');
+    background-image: url('../../assets/images/entry-backgrounds/entry-background-tablet.webp');
   }
   
   .entry-container {
@@ -116,7 +117,7 @@
 
 @media (min-width: 1440px) {
   .entry-section {
-    background-image: url('../../assets/images/entry-background-desktop.webp');
+    background-image: url('../../assets/images/entry-backgrounds/entry-background-desktop.webp');
   }
 
   .entry-container {

@@ -9,7 +9,7 @@
 
 @media (width >= 768px) {
   .btn-link {
-    padding: 12.5px 44.5px;
+    padding: 12.5px 34.5px;
   }
 }
 
@@ -20,6 +20,6 @@
   }
   
   .btn-link {
-    padding: 13px 43.5px;
+    padding: 14px 39.5px;
   }
 }

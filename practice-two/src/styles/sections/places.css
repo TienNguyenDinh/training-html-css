@@ -14,26 +14,25 @@
 .select-wrapper {
   position: relative;
   margin-bottom: 25px;
+}
 
-  &::after {
-    content: "\25BC";
-    position: absolute;
-    right: 11px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: var(--font-size-xsmall);
-    pointer-events: none;
-    color: var(--color-text-secondary);
-  }
+.dropdown-icon {
+  content: "\25BC";
+  position: absolute;
+  right: 11px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .select-places-locations {
   border: 1px var(--border-btn-style-default) var(--border-color-secondary);
   border-radius: 20px;
-  padding-left: 32.5px;
-  padding-right: 32.5px;
+  padding: 3px 25.5px;
   font-size: var(--font-size-xsmall);
-  line-height: var(--line-height-lg);
+  line-height: var(--line-height-md);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
   appearance: none;
   cursor: pointer;
 }

@@ -96,7 +96,8 @@
   transition-property: border-radius, transform;
   transition-duration: 150ms;
   border: none;
-  padding: 10.5px 42px;
+  padding: 10.5px 39.4px;
+  letter-spacing: var(--letter-spacing-md);
   text-transform: uppercase;
   background-color: var(--background-color-btn-primary);
   color: var(--color-text-secondary);
@@ -137,7 +138,7 @@
   }
 
   .btn.btn-purchase {
-    padding: 14.5px 42px;
+    padding: 14.5px 39.6px;
   }
 }
 
@@ -176,6 +177,6 @@
   }
 
   .btn.btn-purchase {
-    padding: 16px 58.25px;
+    padding: 16px 54.25px;
   }
 }
