@@ -74,6 +74,10 @@
 
 .icon-link {
   display: block;
+
+  &:hover {
+    transform: scale(1.06);
+  }
 }
 
 .hero-icon-svg {
