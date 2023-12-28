@@ -1,10 +1,13 @@
-# OVERVIEW
+# PRACTICE TWO - RESPONSIVE WEBSITE
+
+## OVERVIEW
 
 This document provides requirements, technical stack, and estimation for HTML CSS Practice two.
 
 ## TIMELINE
 
 * Expected: 48 hours  (from 2023/12/11 - to 2023/12/26).
+* Actual: 56 hours (from 2023/12/11 - to 2023/12/27)
 
 ## TEAM SIZE
 
@@ -38,6 +41,7 @@ This document provides requirements, technical stack, and estimation for HTML CS
 * Responsive (Mobile, Tablet, Desktop).
 * Check PageSpeed Insight (least > 95%).
 * Apply cross browser with latest version.
+* Apply posthtml-include.
 
 ## GETTING STARTED
 
@@ -47,16 +51,22 @@ This document provides requirements, technical stack, and estimation for HTML CS
 git clone https://github.com/TienNguyenDinh/training-html-css.git
 ```
 
-* Move to folder `practice-two`
+* Move to the cloned repository folder
 
 ```bash
-cd training-html-css/practice-two
+cd training-html-css
 ```
 
 * Checkout to branch `practice-two`
 
 ```bash
 git checkout practice-two
+```
+
+* Move to folder `practice-two`
+
+```bash
+cd practice-two
 ```
 
 * Install packages
@@ -70,3 +80,5 @@ npm install
 ```bash
 npm start
 ```
+
+* Open your web browser and navigate to [http://localhost:1234](http://localhost:1234)
