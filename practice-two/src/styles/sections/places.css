@@ -103,6 +103,10 @@
       box-shadow: 0 0 6px var(--box-shadow-card);
       background-color: var(--background-color-btn-primary);
     }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .places-images {

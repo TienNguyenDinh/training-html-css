@@ -56,6 +56,18 @@
     margin-bottom: 23px;
   }
 
+  .craig-todd { order: 1; }
+
+  .jennie-graham { order: 3; }
+
+  .chase-meyer { order: 5; }
+
+  .vera-hopkins { order: 2; }
+
+  .eunice-wong { order: 4; }
+
+  .johnny-vargas { order: 6; }
+
   .member-avatar {
     margin-right: 16.5px;
     width: 62px;
@@ -80,7 +92,7 @@
     grid-template-columns: repeat(auto-fill, 340px);
     gap: 74px 50px;
   }
-
+ 
   .member-avatar {
     width: 80px;
   }
