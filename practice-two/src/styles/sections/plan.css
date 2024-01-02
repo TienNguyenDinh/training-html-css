@@ -16,8 +16,9 @@
 .choose-plan {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .plan-card-silver {
@@ -120,7 +121,8 @@
 
   .choose-plan {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px 30px;
   }
 
   .card-heading,
