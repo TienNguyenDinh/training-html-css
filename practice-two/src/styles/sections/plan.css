@@ -20,6 +20,17 @@
   gap: 24px 0;
 }
 
+.plan-card {
+  max-width: 220px;
+  padding: 14px 40px 28px;
+  box-shadow: 0px 8px 16px var(--box-shadow-card);
+
+  &:nth-child(2) .btn-purchase {
+    background-color: var(--background-color-btn-secondary);
+    color: var(--color-text-primary);
+  }
+}
+
 .plan-card-silver {
   background: linear-gradient(
     224deg,
@@ -150,6 +161,11 @@
 
   .plan-heading {
     margin-bottom: 52px;
+  }
+
+  .plan-card {
+    max-width: 360px;
+    padding: 40px 80px 36px;
   }
 
   .card-heading {
