@@ -31,7 +31,6 @@
 .hero-content {
   font-size: var(--font-size-xxsmall);
   line-height: var(--line-height-md);
-  white-space: nowrap;
 }
 
 .hero-form {
