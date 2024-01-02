@@ -1,4 +1,7 @@
 .main-footer {
+  --border-color-footer: #7d7d7d;
+  --color-text-footer: #ffffffb0;
+
   background-color: var(--background-color-primary);
 }
 

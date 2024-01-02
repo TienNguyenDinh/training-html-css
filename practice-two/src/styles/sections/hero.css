@@ -1,4 +1,6 @@
 .hero-section {
+  --color-text-unique: #3c3c3c;
+
   background-image: url('../../assets/images/hero-backgrounds/hero-background-mobile.webp');
   background-color: var(--background-color-fallback);
   background-position: center;
