@@ -4,6 +4,7 @@
   padding-right: 20px;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .container {
     padding-left: 26px;
@@ -11,6 +12,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .container {
     max-width: 1140px;

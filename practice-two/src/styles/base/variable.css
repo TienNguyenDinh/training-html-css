@@ -54,6 +54,7 @@
   --border-input-style-default: solid;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   :root {
     --font-size-xxsmall: calc(11 / var(--base-font-size) * 1rem);
@@ -77,6 +78,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   :root {
     --font-size-xxsmall: calc(14 / var(--base-font-size) * 1rem);

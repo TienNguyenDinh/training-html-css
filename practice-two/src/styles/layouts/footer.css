@@ -154,6 +154,7 @@
   fill: var(--color-text-secondary);
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .footer-container {
     padding-top: 20px;
@@ -211,6 +212,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .footer-container {
     padding-top: 50px;

@@ -33,7 +33,6 @@
 .hero-content {
   font-size: var(--font-size-xxsmall);
   line-height: var(--line-height-md);
-  white-space: nowrap;
 }
 
 .hero-form {
@@ -87,6 +86,7 @@
   height: 50px;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .hero-section {
     background-image: url('../../assets/images/hero-backgrounds/hero-background-tablet.webp');
@@ -126,6 +126,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .hero-section {
     background-image: url('../../assets/images/hero-backgrounds/hero-background-desktop.webp');
