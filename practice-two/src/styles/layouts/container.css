@@ -3,12 +3,14 @@
   max-width: 300px;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .container {
     max-width: 1140px;

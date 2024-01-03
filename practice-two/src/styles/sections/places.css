@@ -59,6 +59,7 @@
   }
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .places-container {
     display: flex;
@@ -119,6 +120,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .places-container {
     display: flex;

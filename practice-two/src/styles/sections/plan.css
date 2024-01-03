@@ -108,6 +108,7 @@
   }
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .plan-container {
     padding-top: 56px;
@@ -142,6 +143,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .plan-container {
     padding-top: 68px;

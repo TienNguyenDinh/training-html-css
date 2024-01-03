@@ -51,6 +51,7 @@
   line-height: var(--line-height-md);
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .team-heading {
     margin-bottom: 23px;
@@ -92,6 +93,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .team-container {
     padding-top: 54px;
