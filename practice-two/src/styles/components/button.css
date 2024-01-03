@@ -7,12 +7,14 @@
   cursor: pointer;
 }
 
-@media (width >= 768px) {
+/* For tablet devices */
+@media (min-width: 768px) {
   .btn-link {
     padding: 12.5px 34.5px;
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .btn {
     border-radius: 25px;

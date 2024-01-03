@@ -1,14 +1,18 @@
 .container {
   margin: 0 auto;
-  max-width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    padding-left: 26px;
+    padding-right: 26px;
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .container {
     max-width: 1140px;

@@ -67,6 +67,7 @@
   color: var(--color-text-secondary);
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .entry-section {
     background-image: url('../../assets/images/entry-backgrounds/entry-background-tablet.webp');
@@ -111,6 +112,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .entry-section {
     background-image: url('../../assets/images/entry-backgrounds/entry-background-desktop.webp');

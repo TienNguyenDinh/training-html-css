@@ -42,9 +42,8 @@
 }
 
 .places-images {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
 
@@ -59,6 +58,7 @@
   }
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .places-container {
     display: flex;
@@ -110,6 +110,7 @@
   }
 
   .places-images {
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
 
@@ -119,6 +120,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .places-container {
     display: flex;

@@ -1,4 +1,7 @@
 .main-footer {
+  --border-color-footer: #7d7d7d;
+  --color-text-footer: #ffffffb0;
+
   background-color: var(--background-color-primary);
 }
 
@@ -107,8 +110,7 @@
 
 .footer-nav-links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   gap: 0 14px;
   text-transform: uppercase;
 }
@@ -152,6 +154,7 @@
   fill: var(--color-text-secondary);
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .footer-container {
     padding-top: 20px;
@@ -159,7 +162,7 @@
   }
 
   .footer-top {
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto auto minmax(auto, 450px);
     grid-template-rows: none;
     gap: 0 62px;
   }
@@ -209,6 +212,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .footer-container {
     padding-top: 50px;

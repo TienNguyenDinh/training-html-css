@@ -5,6 +5,7 @@
   text-align: center;
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .section-heading {
     font-size: var(--font-size-xl);
@@ -12,6 +13,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .section-heading {
     line-height: var(--line-height-2xl);

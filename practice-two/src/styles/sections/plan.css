@@ -16,8 +16,9 @@
 .choose-plan {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 24px 0;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .plan-card {
@@ -119,6 +120,7 @@
   }
 }
 
+/* For tablet devices */
 @media (min-width: 768px) {
   .plan-container {
     padding-top: 56px;
@@ -131,7 +133,8 @@
 
   .choose-plan {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px 30px;
   }
 
   .card-heading,
@@ -153,6 +156,7 @@
   }
 }
 
+/* For desktop devices */
 @media (min-width: 1440px) {
   .plan-container {
     padding-top: 68px;
