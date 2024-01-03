@@ -107,8 +107,7 @@
 
 .footer-nav-links {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
   gap: 0 14px;
   text-transform: uppercase;
 }
@@ -159,7 +158,7 @@
   }
 
   .footer-top {
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto auto minmax(auto, 450px);
     grid-template-rows: none;
     gap: 0 62px;
   }
