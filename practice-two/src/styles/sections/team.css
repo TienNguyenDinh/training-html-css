@@ -1,4 +1,6 @@
 .team-section {
+  --border-color-avatar: #afafaf;
+
   color: var(--color-text-secondary);
 }
 
