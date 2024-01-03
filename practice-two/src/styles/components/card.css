@@ -1,22 +1,7 @@
-.plan-card {
+.card {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   align-items: center;
-  min-width: 140px;
   border-radius: 8px;
-  padding: 14px 40px 28px;
-  box-shadow: 0px 8px 16px var(--box-shadow-card);
-
-  &:nth-child(2) .btn-purchase {
-    background-color: var(--background-color-btn-secondary);
-    color: var(--color-text-primary);
-  }
-}
-
-/* For desktop devices */
-@media (min-width: 1440px) {
-  .plan-card {
-    padding: 40px 80px 36px;
-  }
 }
